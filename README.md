@@ -29,7 +29,7 @@ For GSEAL add flags: ``` --apply_GSEAL --lam_GSEAL $lambda```
 
 ```--jet_e_sum_const``` should match the preprocessing flag (see below).
 
-```--remove_wrong_jet_e```, if used with ```--jet_e_sum_const```, will remove jets from the calculation of SEAL which cannot be boosted since log(E_i/E_jet) cannot be restored from the boosted jet. This is not an issue if ```--jet_e_sum_const`` was not used in the preprocessing.
+```--remove_wrong_jet_e```, if used with ```--jet_e_sum_const```, will remove jets from the calculation of SEAL which cannot be boosted since log(E_i/E_jet) cannot be restored from the boosted jet. This is not an issue if ```--jet_e_sum_const``` was not used in the preprocessing.
 
 ## ATLAS Top Tagging Dataset
 
